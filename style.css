@@ -1,0 +1,222 @@
+* {
+    font-family: 'Montserrat',
+        sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.left-side {
+    justify-content: center
+}
+
+.left-side span {
+    color: #FBA24F;
+    text-shadow: none;
+}
+
+.left-side h1 {
+    font-size: 60px;
+    font-family: 'Montserrat',
+        sans-serif;
+    line-height: 78px;
+    font-weight: 700;
+    text-shadow: 3px 5px 5px rgb(63, 62, 62);
+}
+
+.left-side p {
+    color: #828282;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 24px 32px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+}
+
+.right-side {
+    background-image: url('images/shapes/Group\ 8448.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+
+.section-flex {
+    display: flex;
+    padding: 50px;
+
+}
+
+.size {
+    width: 50%;
+}
+
+.about {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 50px;
+}
+
+.about-right {
+    display: flex;
+    align-items: center;
+    padding: 20px 80px;
+
+
+}
+
+.about-right h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.about-right p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 20px 0;
+    color: #18191f;
+}
+
+.about-left {
+    padding: 20px 80px;
+}
+
+.about-left img {
+    width: 90%;
+}
+
+.rec-taitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rec-taitle h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    padding: 30px;
+}
+
+.rec-taitle p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.recipie {
+    margin-bottom: 50px;
+}
+
+.recipe-card {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card1 {
+    margin-right: 30px;
+}
+
+.card2 {
+    margin-left: 30px;
+}
+
+.card {
+    width: 30%;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 5px gray;
+}
+
+.card img {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+
+.card h1 {
+    padding: 20px 0px;
+}
+
+.social-sub {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 12%;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.social {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.padding-content {
+    padding: 50px;
+}
+
+.padding-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    padding: 10px;
+}
+
+.padding-content p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+footer {
+    text-align: center;
+    height: 250px;
+    background-color: #18191f;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+footer span {
+    color: #FBA24F;
+}
